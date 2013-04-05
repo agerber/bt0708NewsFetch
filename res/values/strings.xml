@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UChicago News Fetcher</string>
+    <string name="action_exit">Exit</string>
+   
+
+    <string-array name="news_sites">
+        <item>news.google.com</item>
+        <item>news.yahoo.com</item>
+        <item>bbc.co.uk/news</item>
+    </string-array>
+
+</resources>
