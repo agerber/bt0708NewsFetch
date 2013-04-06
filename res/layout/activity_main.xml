@@ -11,6 +11,54 @@
     tools:context=".MainActivity"
     android:background="#33770000" >
 
+    <EditText
+        android:id="@+id/edtSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
 
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spnSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ />
+
+    <Button
+        android:id="@+id/btnFetch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <WebView
+        android:id="@+id/wbvResult"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+ />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:drawableLeft="@drawable/arrow_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+           
+            />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:drawableRight="@drawable/arrow_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            
+             />
+    </LinearLayout>
 
 </LinearLayout>
