@@ -16,7 +16,7 @@ import android.widget.Spinner;
 
 
 //note: you must put  android:configChanges="orientation|screenSize" in the manifest
-public class MainActivity extends Activity implements OnItemSelectedListener {
+public class MainActivity extends Activity  {
 
 
 	private static final String GOOGLE_SEARCH = "https://www.google.com/search?q=";
@@ -41,7 +41,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
 		btnNext = (Button) findViewById(R.id.btnNext);
 		wbvResult = (WebView) findViewById(R.id.wbvResult);
 
-		spnSite.setOnItemSelectedListener(this);
+		//spnSite.setOnItemSelectedListener(this);
 		//btnFetch.setOnClickListener(this);
 		//btnBack.setOnClickListener(this);
 		//btnNext.setOnClickListener(this);
